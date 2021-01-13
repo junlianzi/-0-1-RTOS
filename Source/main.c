@@ -13,5 +13,11 @@ int main()
 		flag = 1;
 		delay(100);
 	}
-
+	for(;;)
+	{
+		flag = 0;
+		delay(100);
+		flag = 1;
+		delay(100);
+	}	
 }
